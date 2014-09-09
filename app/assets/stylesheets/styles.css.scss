@@ -1,0 +1,405 @@
+/* You could change the font
+/* $baseFontFamily: Poly;
+@import url(http://fonts.google.com/css?family=Poly); */
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+@import 'bootstrap-responsive';
+
+body {
+
+	padding-top: 60px;
+}
+
+.row .span6 {
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 25px;
+}
+
+.RowPortfolio {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	padding-left: 100px;
+	float: left;
+}
+
+#ProjectDescription {
+	padding-top: 30px;
+	padding-left: 25px;
+	font-size: 15px;
+	text-align: top;
+	text-align: center;
+	margin-top: 3px;
+	}
+
+#ProjectDescriptionHome {
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 15px;
+	text-align: top;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: autox   ;
+	}
+
+#menu {
+float: left;
+padding-top: 15px;
+display: block;
+}
+
+#portfolio_menu
+{
+padding: 10px;
+width: 100px;
+height: 100px;
+
+}
+
+#portfoliorow
+{
+padding: 10px;
+width: 200px;
+height: 200px;
+
+}
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.carousel {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0; 
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+
+}
+
+#searchForm {
+    position:absolute;
+    top:40%;
+    bottom: auto;
+    z-index:9999999;
+    right:62%; /* change to whatever you want */
+    left: 38%;
+    bottom:auto; /* change to whatever you want */
+}  
+
+#homeButton1 {
+    position:absolute;
+    top:35%;
+    bottom: auto;
+    z-index:9999999;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    right:62%; /* change to whatever you want */
+    left: 38%;
+    bottom:auto; /* change to whatever you want */
+}  
+
+#homeButton2 {
+    position:absolute;
+    top:35%;
+    bottom: auto;
+    z-index:9999999;
+    font-size: 30px;
+    padding-left: 125px;
+    padding-right: 10px;
+    right:62%; /* change to whatever you want */
+    left: 38%;
+    bottom:auto; /* change to whatever you want */
+}  
+
+
+.PortfolioHomeThumb {
+
+margin: 0 auto;
+text-align: center;
+height: auto;
+width: 290px; 
+padding: 5px;
+background: #A8A8A8;
+color: #FFFFFF;
+border-style: none;
+border:2px solid;
+border-radius:10px;
+}
+
+
+#ProjectName {
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 40px;
+}
+
+#PortfolioTitle {
+	text-align: center;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 20px;
+  	padding-bottom: 50px;
+    color: $gray;
+}
+
+#PortfolioTitle2 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: $gray;
+}
+
+#PortfolioBody {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: $gray;
+}
+
+
+#thumbs {
+height: 200px;
+width: 200px;
+padding-bottom: 150px;
+margin-left: auto;
+}
+
+ .slider-wrapper {
+ margin-left: auto;
+ margin-right: auto; 
+}
+
+.slider-wrapper ul,
+.slider-wrapper li,
+.slider-wrapper div,
+.slider-wrapper img,
+.slider-wrapper a {
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+ 
+.slider-wrapper {
+    width: 508px;
+    overflow: hidden;
+}
+ 
+ul.s-thumbs li {
+    float: left;
+}
+ 
+ul.s-slides,
+ul.s-slides li,
+ul.s-slides a,
+ul.s-slides img {
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+ 
+ul.s-slides {
+    overflow: hidden;
+    clear: both;
+}
+ 
+ul.s-slides li {
+    position: absolute;
+    z-index: 50;
+}
+
+
+ul.s-thumbs li {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 11px;
+}
+ 
+ul.s-thumbs li:last-child {
+    margin-left: 1px;
+    margin-right: 0;
+}
+ 
+ul.s-thumbs a {
+	color:#F0FFFF;
+}
+
+
+ul.s-thumbs a {
+    display: block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border: auto solid transparent;
+    
+ 
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+ 
+    font: bold 12px/25px Arial, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgba(255,255,255,.25), inset 1px 1px 0px rgba(0,0,0,.15);
+}
+ 
+ul.s-thumbs img {
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+ 
+ul.s-thumbs a:hover,
+ul.s-slides {
+    border: 2px solid #141517;
+ 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+ 
+    -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,.05);
+    -moz-box-shadow: 0px 1px 0px rgba(255,255,255,.05);
+    box-shadow: 0px 1px 0px rgba(255,255,255,.05);
+}
+
+
+ul.s-thumbs li a:hover span {
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 101;
+    bottom: -30px;
+    left: -22px;
+    display: block;
+    width: 100px;
+    height: auto;
+    text-align: center;
+ 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+ 
+    /* controlls for the thumbnails in gallery */
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+ 
+    background: #708090; /* Old browsers */
+  
+}
+ 
+ul.s-thumbs li a:hover span:before {
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid #ffffff;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 44px;
+}
+ 
+ul.s-thumbs li:first-child a:hover span {
+    left: -3px;
+}
+ 
+ul.s-thumbs li:first-child a:hover span:before {
+    left: 25px;
+}
+ 
+ul.s-thumbs li:last-child a:hover span {
+    left: auto;
+    right: -3px;
+}
+ 
+ul.s-thumbs li:last-child a:hover span:before {
+    left: auto;
+    right: 26px;
+}
+
+/* Slide Left */
+ 
+@-webkit-keyframes 'slideLeft' {
+    0% { left: -500px; }
+    100% { left: 0; }
+}
+ 
+ul.s-slides li.slideLeft:target {
+    z-index: 100;
+ 
+    -webkit-animation-name: slideLeft;
+    -webkit-animation-duration: .75s;
+    -webkit-animation-iteration-count: 1;
+}
+
+/* Not Target */
+ 
+@-webkit-keyframes 'notTarget' {
+    0% { z-index: 75; }
+    100% { z-index: 75; }
+}
+ 
+ul.s-slides li:not(:target) {
+    -webkit-animation-name: notTarget;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
+
+
+/* First Slide */
+ 
+ul.s-slides li.first {
+    z-index: 60;
+}
+
+
+/* Slider Load */
+ 
+@-webkit-keyframes 'load' {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+ 
+.slider-wrapper {
+    -webkit-animation-name: load;
+    -webkit-animation-duration: 2s;
+    -webkit-transition-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+}
+
+
+.footer {
+    margin-top: 50px;
+	margin-bottom: 25px;
+    margin-left: 30px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+    list-style-type: none
+}

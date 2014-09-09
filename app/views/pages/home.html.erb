@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--  Carousel - consult the Twitter Bootstrap docs at 
+      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+    <div class="item active"><!-- class of active since it's the first item -->
+      <%= image_tag( "Apartment_031.jpg", :alt => "Picture") %>
+    </div>
+       <div class="item">
+      <%= image_tag( "Apartment_004.jpg", :alt => "Picture") %>
+    </div>
+    <div class="item">
+      <%= image_tag( "Apartment_023.jpg", :alt => "Picture") %>
+    </div>
+    <div class="item">
+      <%= image_tag( "Apartment_018 2.jpg", :alt => "Picture") %>
+    </div>
+    <div class="item">
+      <%= image_tag( "Apartment_017 2.jpg", :alt => "Picture") %>
+    </div>
+        <div class="item">
+      <%= image_tag( "Apartment_011.jpg", :alt => "Picture") %>
+    </div>
+        <div class="item">
+      <%= image_tag( "Apartment_034.jpg", :alt => "Picture") %>
+    </div>
+              
+  <div class="span12">
+      <div class="btn-toolbar">
+          <div class="btn-group" id="homeButton1">
+              <a class="btn" href="#"><i class="icon-home"></i>Buy</a>
+          </div>
+          <div class="btn-group" id="homeButton2">
+              <a class="btn" href="#"><i class="icon-home"></i>Rent</a>
+          </div>
+              <form class="navbar-search" id="searchForm">
+                  <input type="text" class="search-query" placeholder="Search for Address or by Zip Code">
+              </form>
+      </div>
+  </div>
+
+  <!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+		interval: 2000
+    });
+  });
+</script>
+
+      <div class= "row">
+            <div class="span6">
+              <a href='homeportfolio'>
+              <div class="PortfolioHomeThumb">
+                <%= image_tag( "REDDINGPORTFOLIO-16.JPG", :alt => "Picture") %>
+                <font color="#FFFFFF">
+                <h3>Portfolio of Homes</h3>
+                <p>
+                 VCD Architects has designed and managed the construction of projects across the northeast
+                </font>
+                </p>
+                </a>
+                </div>
+            </div>
+            <div class="span6">
+               <a href='apartmentsportfolio'>
+              <div class="PortfolioHomeThumb">
+                <%= image_tag( "Apartment_018.jpg", :alt => "Picture") %>
+                <font color="#FFFFFF">
+                <h3>Portfolio of Apartments</h3>
+                <p>
+                   VCD Architects speacializes in complete renovations of luxury apartments in New York City
+                 </font>
+                </p>
+                </a>
+              </div>
+            </div>
+      </div>
+  </div>
+
+</html>
